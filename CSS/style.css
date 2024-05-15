@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Protest+Riot&family=Rubik+Moonrocks&display=swap');
+
+body {
+
+    background-image: url(/img/img4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: blur(background-image);
+
+}
+
+h1 {
+    background-color: black;
+    color: #f8c291;
+    text-align: center;
+    font-family: "Protest Riot", sans-serif;
+}
+
+p {
+
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-family: "Balsamiq Sans", sans-serif;
+}
+
+
+#sample_id{
+    background-color: black;
+    color: #f8c291;
+    text-align: center;
+    font-family: "Protest Riot", sans-serif;
+
+    margin: 100px;
+    padding: 100px 1000px 20px 10px;
+    border: 20px solid #c0392b;
+    border-radius: 10px;
+}
+
+.sample_class{
+    background-color: brown;
+    color: aliceblue;
+    text-align: center;
+    font-family: "Balsamiq Sans", sans-serif;
+    
+  
+    /*z-index: -1;*/
+}
+
+/*#p_id{
+    background-color: #ffa502;
+    font-family: "Protest Riot", sans-serif;
+}*/
+
+.box1{  
+    width: 50px;
+    height: 50px;
+    background-color: #e55039;
+    position: relative;
+    top: 10px;
+    }
+
+.box2{  
+    width: 100px;
+    height: 100px;
+    background-color: #6F1E51;
+    position: sticky;
+    top: 10%;
+    left: 10%;
+    z-index: -1;
+    }
+    img{
+        position: sticky;
+        top: 10%;
+        left: 700%;
+        z-index: -1;
+    }
